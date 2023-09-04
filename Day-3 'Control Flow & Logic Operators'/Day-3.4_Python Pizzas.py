@@ -1,3 +1,5 @@
+# Question Code
+
 '''
 Congratulations, you've got a job at Python Pizza.
 Your first job is to build an automatic pizza order program.
@@ -39,8 +41,12 @@ elif (size == "m" or size == "l") and add_pepperoni == "y":
 if extra_cheese == 'y':
     Bill += 1
 
+
 # TODO 4: Output
-print(f"Your Total bill is {Bill}")
+if Bill < 5:
+    print(f"You have chosen Invalid options")
+else:
+    print(f"Your Total bill is {Bill}")
 
 
 
