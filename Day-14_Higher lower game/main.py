@@ -79,7 +79,8 @@ if Result(User_Choice, Other_Option, Instagram_Dictonary):
             os.system("cls")
             print(f"Game Over, You got all right & SCORE is {Score}, Congratulations")
             Loop_on = False
-
+else:
+    print("You got it wrong, YOU LOSE")
 
 
 
