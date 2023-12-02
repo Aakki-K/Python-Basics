@@ -45,7 +45,7 @@ def Race(Object_List, Screen_width, Intermittent_spacing):
         for Racer in Object_List:
             Racer.forward(random.choice(Random_jump))
             x = (Racer.xcor())
-            if x >= float((Screen_width / 2) - Intermittent_spacing):
+            if x >= float((Screen_width / 2) - (Intermittent_spacing/2)):
                 return Racer.color()
 
 
